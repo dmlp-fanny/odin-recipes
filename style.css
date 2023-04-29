@@ -1,0 +1,114 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+/* General declaration */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Main Elements */
+body {
+  background-color: aliceblue;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+
+header,
+main,
+footer {
+  width: 40rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header section {
+  background-color: darkslategray;
+  padding: 7%;
+  color: whitesmoke;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+footer {
+  padding: 5%;
+  color: grey;
+  font-size: 0.5rem;
+}
+
+/* Recipe Section */
+main p {
+  margin-bottom: 100px;
+}
+
+.circle {
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 5px 40px 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+/* Text and font styles */
+a:link {
+  color: slategray;
+  text-decoration: none;
+}
+a:visited {
+  color: slategray;
+}
+a:hover {
+  color: slategray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Recipe HTML */
+
+.recipepage {
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.recipeimg {
+  width: 40rem;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.recipeimg img {
+  width: 100%;
+  position: absolute;
+  bottom: -35%;
+  left: 0;
+}
+
+.recipepage h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.message {
+  font-family: "Playball", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
